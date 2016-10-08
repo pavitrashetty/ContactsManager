@@ -1,0 +1,23 @@
+How to run:
+	python manager.py
+	
+	
+Details:
+
+A simple Contacts application that supports following two operations:
+Add contact
+Search Contact
+
+A Contact is defined as firstName and/or lastName separated by space. Like:
+
+Chris Harris
+Chris Cairns
+Harry Potter
+Chris
+
+Add contact takes the name and adds it to contact list.
+Search contact matches the contacts for a given search string.
+Search results are ranked, exact matches are listed first. Other matches are listed alphabetically. Search can be done by last name too.
+
+
+3 different implementations of the Contact List class, each better in performance than the previous. Current final version is V2.
